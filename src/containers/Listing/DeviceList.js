@@ -91,7 +91,7 @@ const DeviceList = props => {
                     <div className={classes['card-content']+' '+classes['card-content-with-button']}>
                       <h5>{info.modelNo}</h5>
                       <p>{info.vendor}</p>
-                      <a href={info.infoUrl} className={classes['btn-violet-small']}>
+                      <a href={info.infoUrl} target='__blank' className={classes['btn-violet-small']}>
                         Know More</a>
                     </div>
                   </div>
