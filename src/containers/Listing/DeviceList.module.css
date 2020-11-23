@@ -62,19 +62,15 @@ li {
     position: relative;
 }
 
-.card-lists .card-item .img-block {
-    width: 100%;
+.iphone-img img {
+    margin: 0 auto;
+    height: 13.5rem;
 }
 
-.iphone-img {
-    text-align: center;
-    padding: 2.625rem 0 0.3125rem;
-}
-
-.card-lists .card-item .card-content.card-content-with-button {
-    padding-bottom: 6.25rem;
-    /* position: relative; */
-    /* height: 100%; */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
 }
 
 .card-lists .card-item .card-content {
@@ -85,6 +81,12 @@ li {
     padding-bottom: 2.5rem;
     height: auto;
     text-align: center;
+}
+
+.card-lists .card-item .card-content.card-content-with-button {
+    padding-bottom: 6.25rem;
+    position: relative;
+    height: 100%;
 }
 
 p {
@@ -98,14 +100,6 @@ p {
 
 .card-lists .card-item .card-wrapper img {
     border-radius: 0.3125rem 0.3125rem 0 0;
-}
-
-img {
-    max-width: 100%;
-    vertical-align: middle;
-    border-style: none;
-    height: 19.5rem;
-    margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -130,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 h5 {
     display: block;
     font-size: 0.83em;
-    margin-block-start: 1.67em;
+    /*margin-block-start: 1.67em;*/
     margin-block-end: 1.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
